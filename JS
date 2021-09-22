@@ -1,0 +1,12 @@
+class Rectangle {
+  constructor(length, width) {
+    this.length = length;
+    this.width = width;
+  }
+  get area() {
+    return this.length * this.width;
+  }
+  get perimteter() {
+    return 2 * (this.length + this.width);
+  }
+}
