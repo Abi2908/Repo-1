@@ -1,0 +1,18 @@
+class ClassA {
+}
+class ClassB {
+}
+class ClassC {
+}
+class Facade {
+  constructor() {
+    this.a = new ClassA();
+    this.b = new ClassB();
+    this.c = new ClassC();
+  }
+}
+class Foo {
+  constructor() {
+    this.facade = new Facade();
+  }
+}
